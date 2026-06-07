@@ -36,16 +36,6 @@ Students at California State University, Fullerton rely on information from many
 | 9 | Food outlets| Options for food oncampus| https://www.fullerton.edu/food/hours/|
 | 10 | CSUF ASI team| ASi upcoming event details| https://asi.fullerton.edu/programming/#Upcoming%20Events|
  
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
  
 
 ---
@@ -57,12 +47,22 @@ Students at California State University, Fullerton rely on information from many
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
+ 
 **Chunk size:**
-
+400
 **Overlap:**
-
+75
 **Reasoning:**
 
+I will use fixed-size chunks of approximately 400 words with an overlap of 75 words.
+
+Most official CSUF webpages are medium-length documents containing headings, short paragraphs, and bullet lists. A 400-word chunk is large enough to preserve context while remaining focused on a specific topic. The 75-word overlap helps ensure that important information located near chunk boundaries is not lost during retrieval.
+
+For Reddit discussions, important information may be spread across multiple comments. The overlap allows related opinions and recommendations to remain connected even when split across chunks.
+
+If chunks are too small, retrieval may return incomplete information and lose context. For example, a query about housing requirements might retrieve only part of the application instructions. If chunks are too large, retrieval may return irrelevant information and reduce embedding precision because multiple topics are mixed together.
+
+The overlap improves retrieval quality by preserving continuity between adjacent chunks and reducing the risk of splitting key facts across boundaries.
 ---
 
 ## Retrieval Approach
@@ -75,9 +75,21 @@ Students at California State University, Fullerton rely on information from many
 
 **Embedding model:**
 
+I will use the sentence-transformers all-MiniLM-L6-v2 embedding model because it is lightweight, free, and widely used for semantic search applications.
+
+Embeddings will be stored in ChromaDB and queried using cosine similarity.
+
 **Top-k:**
 
+For each user query, I will retrieve the top 4 most relevant chunks (top-k = 4).
+
 **Production tradeoff reflection:**
+
+Retrieving too few chunks may omit important information needed to answer a question completely. Retrieving too many chunks may introduce irrelevant information, increasing the likelihood of inaccurate responses and making prompts unnecessarily large.
+
+Semantic search works because embeddings capture the meaning of text rather than relying only on exact keyword matching. For example, a user asking about "career help" may retrieve content discussing "career guidance" even if those exact words do not appear in the query.
+
+If cost and computational resources were not constraints, I would consider larger embedding models such as BGE-large or E5-large because they generally provide better semantic understanding, improved retrieval accuracy, and stronger performance on longer or more complex documents.
 
 ---
 
@@ -90,11 +102,11 @@ Students at California State University, Fullerton rely on information from many
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What services does the ECS Student Success Center provide?| Academic support, tutoring, career guidance, workshops, and student success resources.|
+| 2 | How can students become involved in engineering clubs at CSUF?| Students can join organizations listed on the ECS Student Clubs page and participate in club meetings, projects, and networking events.|
+| 3 | What scholarship opportunities are available for international students?| Scholarships listed through the International Students and Scholars Office, including eligibility requirements and application information.|
+| 4 | How do students apply for on-campus housing?| Students must complete the housing application process described on the CSUF Housing Application page and meet the required deadlines.|
+| 5 | What dining options are available on campus?|  Various dining locations and food service facilities listed on the CSUF Food Services page, along with operating hours.|
 
 ---
 
@@ -104,9 +116,14 @@ Students at California State University, Fullerton rely on information from many
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.Mixed Document Types
+The dataset contains both official university webpages and informal Reddit discussions. Student opinions may be subjective or inconsistent compared to official information.
 
-2.
+2.Chunk Boundary Issues
+Important information may be split across chunk boundaries, causing incomplete retrieval results. The overlap strategy is intended to reduce this risk.
+
+3.Source Attribution
+Responses should clearly identify whether information comes from official university resources or student discussions to improve trustworthiness.
 
 ---
 
@@ -131,6 +148,127 @@ Students at California State University, Fullerton rely on information from many
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+
+1.Document Collection and Preprocessing
+
+I will use Claude to help generate Python scripts for downloading, extracting, and cleaning text from webpages and Reddit discussions.
+
+Input to Claude:
+
+The list of source URLs from the Documents section.
+Project requirements for storing documents as text files.
+
+Expected Output:
+
+Python code that extracts webpage content, removes unnecessary HTML elements, and saves clean text files for indexing.
+
+Verification:
+
+I will manually inspect several generated text files to ensure the extracted content matches the original webpages and does not contain excessive navigation menus or formatting artifacts.
+
+2.Chunking Implementation
+
+I will use Claude to implement the document chunking functionality.
+
+Input to Claude:
+
+The Chunking Strategy section of this planning document.
+Requirements specifying 400-word chunks with a 75-word overlap.
+
+Expected Output:
+
+A Python function chunk_text() that splits documents into chunks according to the specified chunk size and overlap.
+
+Verification:
+
+I will test the function on sample documents and confirm that chunk lengths are approximately 400 words and that consecutive chunks share the required overlap.
+
+3.Embedding Generation
+
+I will use Claude to generate code for creating embeddings using the sentence-transformers library and the all-MiniLM-L6-v2 model.
+
+Input to Claude:
+
+The Retrieval Approach section.
+The requirement to use all-MiniLM-L6-v2 for semantic search.
+
+Expected Output:
+
+Python code that loads the embedding model and converts document chunks into vector embeddings.
+
+Verification:
+
+I will verify that embeddings are generated successfully and that each chunk receives a corresponding vector representation.
+
+4.ChromaDB Integration
+
+I will use Claude to implement storage and retrieval using ChromaDB.
+
+Input to Claude:
+
+The Retrieval Approach section.
+ChromaDB documentation and project requirements.
+
+Expected Output:
+
+Code that stores chunk embeddings in a ChromaDB collection and retrieves the most relevant chunks using similarity search.
+
+Verification:
+
+I will run test queries and confirm that retrieved chunks are relevant to the query and correspond to the correct source documents.
+
+5.Retrieval-Augmented Generation Pipeline
+
+I will use Claude to help integrate retrieval results with the Groq LLM.
+
+Input to Claude:
+
+The Retrieval Approach section.
+Assignment requirements for RAG.
+Sample retrieved chunks and user queries.
+
+Expected Output:
+
+Python code that retrieves top-k chunks, constructs a prompt, sends it to the Groq API, and generates a response based on retrieved context.
+
+Verification:
+
+I will compare generated responses against the retrieved chunks to ensure answers are grounded in the source material rather than fabricated information.
+
+6.Evaluation and Testing
+
+I will use Claude to generate additional test cases and evaluate retrieval performance.
+
+Input to Claude:
+
+The Evaluation Plan section.
+Sample outputs from the retrieval system.
+
+Expected Output:
+
+Additional test questions and suggestions for measuring retrieval accuracy and response quality.
+
+Verification:
+
+I will manually compare generated answers against the expected answers listed in the Evaluation Plan and confirm whether the system retrieves the correct supporting information.
+
+7.Documentation and README
+
+I will use Claude to review project documentation and improve clarity.
+
+Input to Claude:
+
+The completed planning document.
+Project implementation details and setup instructions.
+
+Expected Output:
+
+Suggestions for improving organization, readability, and completeness of the README and project documentation.
+
+Verification:
+
+I will ensure that all project requirements are documented and that another user could reproduce the project by following the provided instructions.
+
 
 **Milestone 3 — Ingestion and chunking:**
 
