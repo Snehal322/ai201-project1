@@ -17,4 +17,8 @@ chroma_db/
 chroma/
 
 # macOS
+ 
 .DS_Store
+ 
+.DS_Store
+ 

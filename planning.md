@@ -11,8 +11,10 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+ 
 Students at California State University, Fullerton rely on information from many different sources to learn about academic support, student organizations, housing, dining, scholarships, and campus opportunities. This information is scattered across university websites and student discussions, making it difficult to find relevant answers quickly. This RAG system will consolidate official resources and student experiences into a searchable knowledge base to help students navigate campus life more effectively.
 
+ 
 ---
 
 ## Documents
@@ -22,6 +24,7 @@ Students at California State University, Fullerton rely on information from many
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
+ 
 | 1 | ECS Student Success Center| Details about Career guidance and oncampus help available | https://www.fullerton.edu/ecs/resources/StudentSuccessCenter.php|
 | 2 | ECS Student Clubs Page| List of clubs for stidents to get into as per their interests| https://www.fullerton.edu/ECS/students/clubs.html|
 | 3 | Reddit: Engineering Clubs| Club details shared by students| https://www.reddit.com/r/csuf/comments/10k0755|
@@ -32,6 +35,18 @@ Students at California State University, Fullerton rely on information from many
 | 8 | CSUF housing| Details to apply for on campus housing| https://www.fullerton.edu/housing/apply/26-27/application-overview.html|
 | 9 | Food outlets| Options for food oncampus| https://www.fullerton.edu/food/hours/|
 | 10 | CSUF ASI team| ASi upcoming event details| https://asi.fullerton.edu/programming/#Upcoming%20Events|
+ 
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
+| 6 | | | |
+| 7 | | | |
+| 8 | | | |
+| 9 | | | |
+| 10 | | | |
+ 
 
 ---
 
