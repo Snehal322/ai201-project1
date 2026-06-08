@@ -103,8 +103,8 @@ If cost and computational resources were not constraints, I would consider large
 | # | Question | Expected answer |
 |---|----------|-----------------|
 | 1 | What services does the ECS Student Success Center provide?| Academic support, tutoring, career guidance, workshops, and student success resources.|
-| 2 | How can students become involved in engineering clubs at CSUF?| Students can join organizations listed on the ECS Student Clubs page and participate in club meetings, projects, and networking events.|
-| 3 | What scholarship opportunities are available for international students?| Scholarships listed through the International Students and Scholars Office, including eligibility requirements and application information.|
+| 2 | How can students become involved in engineering clubs at CSUF?| Students can join organizations listed on the ECS Student Clubs like DSML club, ACM, IEEE and participate in club meetings, projects, and networking events.|
+| 3 | What scholarship opportunities are available for international students?| Scholarships listed through the International Students and Scholars Office, including Abroova & Prabakar Scholarship and ISS opportunities|
 | 4 | How do students apply for on-campus housing?| Students must complete the housing application process described on the CSUF Housing Application page and meet the required deadlines.|
 | 5 | What dining options are available on campus?|  Various dining locations and food service facilities listed on the CSUF Food Services page, along with operating hours.|
 
@@ -274,6 +274,8 @@ I will ensure that all project requirements are documented and that another user
 
 **Milestone 3 — Ingestion and chunking:**
 
+
 **Milestone 4 — Embedding and retrieval:**
+
 
 **Milestone 5 — Generation and interface:**
