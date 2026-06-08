@@ -1,0 +1,177 @@
+Student Clubs
+Joining student organizations and clubs is a great way to meet new people, learn more about specific topics, and feel connected to your campus community!
+
+ACM SIGGRAPH
+@csuf_siggraph | acmsiggraph.csufullerton@gmail.com
+Erik Carpenter, Faculty Advisor
+
+ACM SIGGRAPH is a student chapter focused on fostering a diverse membership community for students at CSU Fullerton that promotes and inspires researchers, artists, developers, filmmakers, and scientists whose core values help to shape the future of computer graphics, interactive techniques, and emerging technologies in the specialized fields associated with ACM SIGGRAPH.
+
+Chapter members may be interested in careers in animation, games, VR/AR, scientific research, software development, visual effects, computer science, engineering, and more. Each semester, we host various events, including our professional speaker events, workshops, demonstrations, networking events, portfolio-building projects, studio visits, and more. 
+
+Members are encouraged to attend the annual SIGGRAPH conference to see the latest technological advancements and network with other like-minded professionals in the computer graphics and interactive technologies fields.
+
+AMERICAN SOCIETY OF CIVIL ENGINEERS (ASCE)
+@csufasce | csufasce@gmail.com
+David Naish, Faculty Advisor
+
+ASCE is the nation's oldest engineering society, and promotes success within the civil engineering field. CSUF ASCE has about 180 members and is a great opportunity not only to meet other students in your major but also to network with professionals within the field and advance your career. ASCE provides members with internship and job opportunites, networking events, educational seminars and tours, social events, and we work on a variety of projects. Our club is well known for our concrete canoe and steel bridge, which compete along with many other projects in our yearly conference called the Pacific Southwest Conference. Joining ASCE is not only a lot of fun, but a great career move!
+
+AMERICAN SOCIETY OF MECHANICAL ENGINEERING (ASME)
+@csufasme | asmecsuftitans@gmail.com
+Jonathan Woodland, Staff Advisor
+
+ASME is a professional organization and community of Mechanical Engineers around the U.S. We aim to provide students with the tools and resources to succeed in the professional industry. We also hope to nurture a community of students to grow, and form connections as they make their way to the real world
+
+ASSOCIATION FOR COMPUTING MACHINERY (ACM)
+@acmcsuf | acmcsufullerton@gmail.com
+Duy Ho, Faculty Advisor
+
+We are a chapter club of the Association for Computing Machinery organization. Our goal is to expose passionate people of all levels to grow their skills in a collaborative community. Workshops cater to students of all levels, from beginners to advanced. Everyone is welcome to participate and learn.
+
+ASSOCIATION FOR COMPUTING MACHINERY - WOMEN (ACM-W)
+@acm_w_csuf | acmwfullerton24@gmail.com
+Doina Bein & Beth Harnick-Shapiro, Faculty Advisors
+
+Association for Computing Machinery - Women supports, celebrates, and advocates for the full engagement, education, and opportunities of women in all aspects of the computing field. We endeavor to provide a wide range of programs and services to students and advance, in the larger community, the contributions of technical women students.
+
+CONSTRUCTION ENGINEERING MANAGEMENT ASSOCIATION
+@csufcema | cemacsuf@gmail.com
+Jacob Hakob, Faculty Advisor
+
+The Construction Engineering Management Association (CEMA) at California State University, Fullerton (CSUF) is a student-run organization focused on advancing the academic and professional development of students pursuing careers in construction management, civil engineering, and related fields.
+
+CONSTRUCTION MANAGERS ASSOCIATION OF AMERICA (CMAA)
+Hakob Avetisyan, Faculty Advisor
+
+CMAA’s purpose is to expose CSUF engineering students to the world of construction management and provide opportunities to learn and gain useful experience in real world situations.
+
+CSUF CALGEO (CALGEO)
+@csuf_calgeo | csufcalgeo@gmail.com
+Phoolendra Mishra, Faculty Advisor
+
+The CSUF CalGeo Club is dedicated to advancing student knowledge and experience in geotechnical engineering through hands-on projects, industry engagement, and professional development. Our members explore topics like soil mechanics, foundation design, and slope stability while connecting with professionals and alumni in the field. Each year, we proudly represent Cal State Fullerton in the GeoWall competition, where we design and build model retaining walls to solve real-world geotechnical challenges. Whether you're passionate about infrastructure or just curious about what's beneath your feet, CalGeo is the place to dig deeper!
+
+DATA SCIENCE AND MACHINE LEARNING CLUB (DSML)
+Kanika Sood, Faculty Advisor
+
+This club will be about different techniques students can learn when it comes to the data science and machine learning industry. They will learn different terms, concepts, and involve in special events regarding about this industry.
+
+ENGINEERING DESIGN CLUB (EDC)
+Robert Wright, Staff Advisor
+
+The Engineering Design Club focuses on applying knowledge to portfolio projects and expanding social networks through project work and development. We have workshops on the basics of engineering, from soldering and modeling, to circuit board design.
+
+INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS (IEEE)
+ieee.csuf423@gmail.com
+Robert Wright, Staff Advisor
+
+The mission of the IEEE Student Branch at California State University, Fullerton is to connect students with industry professionals, provide insight into diverse engineering career paths, and foster technical skill development through workshops and hands-on projects.
+
+INSTITUTE OF NAVIGATION (ION)
+Jidong Huang, Faculty Advisor
+
+The Institute of Navigation is all about bringing together students and professionals who are interested in navigation, positioning, and related technologies. It provides a space to learn about GPS, satellites, mapping, and other systems that guide transportation, aerospace, and even everyday devices. Members can take part in workshops, projects, guest lectures, and competitions that build both technical knowledge and teamwork skills. The club also encourages networking with industry experts and researchers, helping members explore careers and innovations in the field of navigation.
+
+INSTITUTE OF TRANSPORTATION ENGINEERS (ITE)
+@csufite | csufite@gmail.com
+David Naish, Faculty Advisor
+
+The Institute of Transportation Engineers (ITE) is an international educational and scientific association of transportation professionals who are responsible for meeting mobility and safety needs. To provide the global community of transportation professionals with the knowledge, practices, and skills to serve the needs of their communities and help shape the future of the profession and transportation in the societal context.
+
+NATIONAL SOCIETY OF BLACK ENGINEERS (NSBE)
+@nsbe_csuf
+
+Our mission statement is: To increase the number of culturally responsible Black Engineers who excel academically, succeed professionally and positively impact the community.
+
+We envision a world in which engineering is a mainstream word in homes and communities of color, and all Black students can envision themselves as engineers. In this world, Blacks exceed parity in entering engineering fields, earning degrees, and succeeding professionally.
+
+At NSBE’s core, our programs form a thriving STEM pathway. Through leadership, technical and academic excellence, and mentoring, we uplift our community. Supporting NSBE cultivates a legacy of future leaders, innovators, and global citizens poised to make lasting positive impacts worldwide.
+
+Each year, NSBE leaves a profound mark across various spheres. From the thousands of 3rd through 5th graders engaged in our national Summer Engineering Experience for Kids (SEEK) camps, to the 15,000 collegiate students honing their academic and technical skills, and the myriad of businesses led by our professionals daily, the impact of our organization is unmistakable. As trailblazers in shaping the future of Black Engineers and Blacks in STEM, NSBE stands at the forefront of positive change.
+
+OFFENSIVE SECURITY SOCIETY (OSS)
+@osscsuf | oss@osscsuf.org
+Jason Iwama, Faculty Advisor
+
+Offensive Security Society (OSS) is a student-led cybersecurity club dedicated to professionalism, hands-on learning, and excellence in the field of information security. We provide students with opportunities to develop technical skills through workshops, competitions, and industry-driven projects. This club also focuses on fostering collaboration and leadership. Our mission is to prepare members for success in both academic and professional environments by combining cybersecurity studies with real-world applications.
+
+SOCIETY FOR THE ADVANCEMENT OF MATERIAL AND PROCESSING ENGINEERING (SAMPE)
+@sampe_csuf | sampecsuf@gmail.com
+Xinyi Wang, Faculty Advisor
+
+The Society for the Advancement of Material and Process Engineering (SAMPE®) is a global professional member society that provides enhanced educational opportunities, by delivering information on new and advanced materials and processing technology which have major presence in aerospace, automotive, medical, and defense industries. SAMPE student chapters provide growth and educational opportunities via conferences, exhibitions, technical forums, competitions and publications. As the only technical society encompassing all fields of endeavor in materials and processes, SAMPE provides a unique and valuable forum for scientists, engineers, and academicians.
+
+SOCIETY OF AUTOMOTIVE ENGINEERS (SAE)
+@csuf_fsae
+
+In our club, we design, manufacture, and test our open-wheel style race car and compete in a worldwide competition held in Michigan. As a team, our score is based off our performance of the car, a business breakdown, and overall design.
+
+SOCIETY OF HISPANIC PROFESSIONAL ENGINEERS (SHPE)
+@shpe_csuf | csufshpe@gmail.com
+Sang June Oh, Faculty Advisor & Dean
+
+SHPE changes lives by empowering the Hispanic community to realize their fullest potential and to impact the world through STEM awareness, access, support and professional development. SHPE's vision is a world where Hispanics are highly valued and influential as the leading innovators, scientists, mathematicians and engineers.
+
+SOCIETY OF MANUFACTURING ENGINEERS (SME)
+Sagil James, Faculty Advisor
+
+The Society of Manufacturing Engineers (SME) at Cal State Fullerton connects students with industry through hands-on projects, technical workshops, and networking events. As a chapter of the national SME organization, we aim to promote innovation and professional growth in manufacturing and engineering.
+
+SOCIETY OF WOMEN ENGINEERS (SWE)
+@csufswe | swecsuf.president@gmail.com
+Hope Weiss, Faculty Advisor
+
+CSUF Society of Women Engineers aims to empower women in engineering through outreach and hands on experience. The club has engineering majors of all different branches including computer science.
+
+TAU BETA PI (TBP)
+Justin Tran, Faculty Advisor
+
+Tau Beta Pi is the only engineering honor society representing the entire engineering profession. It is the nation's second-oldest honor society, founded at Lehigh University in 1885. It recognizes students of superior scholarship and exemplary character. The society aims to foster a spirit of liberal culture in engineering colleges and provides various benefits to its members, including leadership opportunities, career assistance, and scholarships. 
+
+THETA TAU (TT)
+@csufthetatau | csufthetatau.regent@gmail.com
+Deepak Sharma, Faculty Advisor
+
+Official Co-ed engineering fraternity on campus, established in 2020, we are the official CSUF chapter. Our members promote our philanthropy of professionalism, service, and brotherhood. We accept all students who belong within the ECS colleges. We hold several in house workshops and community service events to help with resume building and networking.
+
+TITAN AERO
+@titanaero
+Nina Robson
+
+Titan Aero is a legacy team on campus where we build a large scale RC plane and compete internationally against other schools. We are affiliated with SAE and will be competing in the second semester of this school year. We meet with our advisory weekly, and will be working in E21.
+
+TITAN RACING BAJA (BAJA)
+@csufullertonbaja | csuftitanbaja@gmail.com
+
+Baja SAE is a design competition team where students design, build, and race an off-road vehicle that can withstand rough terrain. The project challenges teams to apply engineering principles in real-world conditions, from drivetrain and suspension to manufacturing and testing. Beyond racing, teams are judged on design, cost, and business presentations, making it a complete engineering and project management experience. It’s a hands-on way for students to gain practical skills, teamwork, and industry exposure.
+
+TITAN ROCKET
+
+Titan Rocket is a club that researches, designs, builds, tests, and flies rockets. The purpose of this organization is to provide students with opportunities in competition and research based rocketing with an intent to contribute sophisticated, groundbreaking innovation to the aeronautics field.
+
+TITAN ROVER
+@titanrover
+Nina Robson, Faculty Advisor
+
+Titan Rover began as an electrical engineering project. Over time, Titan Rover has expanded to include students with backgrounds in: Mechanical Engineering, Computer Engineering, Computer Science, Biology, Geology, Business, Chemistry, Photography, Film, Graphic Design, Marketing, etc.
+
+Thus there was a recognized need to expand the project into a club in order to be a home to anyone who has an interest in robotics, space, science, engineering, or the inhabitation of Mars. If you are interested in learning more about Titan Rover or desire to expand your knowledge in STEM, Titan Rover is the organization for you!
+
+TITAN UNDERWATER ROBOTICS
+@csuf.turc | titanunderwaterrobotics@gmail.com
+John Faller, Faculty Advisor
+
+Titan Underwater Robotics at CSUF, sponsored by RJE International, Inc., develops innovative submersible vehicles for the MATE ROV and RoboSub competitions, advancing marine robotics through collaborative student projects. These projects combines the expertise of computer engineering, electrical engineering, mechanical engineering, and computer science. Students can work on two vehicles, namely, the Remote Operated Vehicle (ROV) and the Autonomous Underwater Vehicle (AUV).
+
+VIDEO GAME DEVELOPMENT CLUB (VGDC)
+csuf.vgdc@gmail.com
+Rong Jin, Faculty Advisor
+
+The Video Game Development Club at CSUF is an organization aimed at aspiring game developers, artists, composers, writers, and any other individuals looking to apply their skills with like-minded students to create interactive applications and game media.
+
+WOMEN IN BUSINESS AND STEM (WIBS)
+@wibsfullerton | wibsfullerton@gmail.com
+Kellee Carter, Faculty Advisor
+
+The Women in Business and STEM club supports student career and personal growth through resume help, webinars with industry experts, leadership roles, study groups, community service, and public speaking training. Through leadership roles, study groups focusing on the latest trends, community engagement, and public speaking training, we foster essential professional skills and boost confidence in professional settings, ensuring students are well-equipped to excel in their chosen fields. Our aim is to create a supportive environment for students to network, learn, and develop their potential while contributing to their communities.

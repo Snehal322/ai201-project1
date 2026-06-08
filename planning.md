@@ -135,6 +135,8 @@ Responses should clearly identify whether information comes from official univer
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+Document Ingestion → Chunking → Embedding (all-MiniLM-L6-v2) → ChromaDB → Retrieval → Groq Llama 3.3 70B
+
 ---
 
 ## AI Tool Plan
