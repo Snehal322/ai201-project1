@@ -25,7 +25,7 @@ Students at California State University, Fullerton rely on information from many
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
  
-| 1 | ECS Student Success Center| Details about Career guidance and oncampus help available | https://www.fullerton.edu/ecs/resources/StudentSuccessCenter.php|
+| 1 | ECS Student Success Center| Details about Career guidance and oncampus help available | https://www.fullerton.edu/ecs/students/international-support.html|
 | 2 | ECS Student Clubs Page| List of clubs for stidents to get into as per their interests| https://www.fullerton.edu/ECS/students/clubs.html|
 | 3 | Reddit: Engineering Clubs| Club details shared by students| https://www.reddit.com/r/csuf/comments/10k0755|
 | 4 | Reddit: Computer Engineering Advising| Advusors of department support to students| https://www.reddit.com/r/csuf/comments/fua9p1|
@@ -49,9 +49,9 @@ Students at California State University, Fullerton rely on information from many
 
  
 **Chunk size:**
-400
+250
 **Overlap:**
-75
+50
 **Reasoning:**
 
 I will use fixed-size chunks of approximately 400 words with an overlap of 75 words.

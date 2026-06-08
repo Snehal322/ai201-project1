@@ -14,8 +14,8 @@ import random
 RAW_DIR = "raw_documents"
 OUTPUT_FILE = "chunks.json"
 
-CHUNK_SIZE = 400
-OVERLAP = 75
+CHUNK_SIZE = 250
+OVERLAP = 50
 
  
  
