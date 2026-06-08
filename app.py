@@ -8,14 +8,18 @@ import time
 
 import random
 
+
+import gradio as gr
+from query import ask
+
 # ==========================
 # Configuration
   
 RAW_DIR = "raw_documents"
 OUTPUT_FILE = "chunks.json"
 
-CHUNK_SIZE = 250
-OVERLAP = 50
+CHUNK_SIZE = 200
+OVERLAP = 40
 
  
  
@@ -236,6 +240,72 @@ def main():
         print(f"{source}: {count} \n \n")
 
 
+
+# -----------------------------
+
+def handle_query(question):
+
+    result = ask(question)
+
+    sources = "\n".join(
+        f"• {s}"
+        for s in result["sources"]
+    )
+
+    return (
+        result["answer"],
+        sources
+    )
+
+# -----------------------------
+
+with gr.Blocks() as demo:
+
+    gr.Markdown(
+        "# CSUF Engineering Student Guide"
+    )
+
+    gr.Markdown(
+        "Ask questions about clubs, scholarships, housing, events, resources, and graduate programs."
+    )
+
+    question = gr.Textbox(
+        label="Ask a Question"
+    )
+
+    ask_button = gr.Button(
+        "Ask"
+    )
+
+    answer = gr.Textbox(
+        label="Answer",
+        lines=10
+    )
+
+    sources = gr.Textbox(
+        label="Sources",
+        lines=5
+    )
+
+    ask_button.click(
+        handle_query,
+        inputs=question,
+        outputs=[
+            answer,
+            sources
+        ]
+    )
+
+    question.submit(
+        handle_query,
+        inputs=question,
+        outputs=[
+            answer,
+            sources
+        ]
+    )
+
+demo.launch()
 
 if __name__== "__main__":
     main()
